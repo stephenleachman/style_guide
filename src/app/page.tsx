@@ -1,7 +1,6 @@
 import { ButtonThemed } from "@/components/ComponentThemes";
 import Link from "next/link";
 
-
 export default function Home() {
   return (
     <div className="h-[93vh]">
@@ -12,7 +11,6 @@ export default function Home() {
             color="primary"
             as={Link}
             href="/styleguide"
-    
           >
             Style Guide Here
           </ButtonThemed>

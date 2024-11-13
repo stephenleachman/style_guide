@@ -24,7 +24,7 @@ const config: Config = {
       },
     },
     borderRadius: {
-      'lg': '0.5rem',
+      'lg': '0.8rem',
       'full': '9999px',
     },
   },
@@ -38,28 +38,26 @@ const config: Config = {
           layout: {},
           colors: {
             'background': {
-              1: '#f9fafb',
-              2: '#f3f4f6',
+              1: '#fafafa',
+              2: '#f4f4f5',
             },
             'primary': {
-              1: '#a21caf',
-              2: '#7e22ce',
+              1: '#e11d48',
+              2: '#f43f5e',
               // foreground: "#a21caf",
-              DEFAULT: "#a21caf",
-
-
+              DEFAULT: "#e11d48",
             },
             'secondary': {
               1: '#701a75',
               2: '#581c87',
             },
-            'heading-text': '#111827',
-            'p-text': '#374151',
-            'muted-text': '#6b7280',
-            'link-text': '#374151',
+            'heading-text': '#4c0519',
+            'p-text': '#3f3f46',
+            'muted-text': '#71717a',
+            'link-text': '#71717a',
             'card': '#fff',
-            'border-color': '#cbd5e1',
-            'ring-color': '#cbd5e1',
+            'border-color': '#e4e4e7',
+            'ring-color': '#e4e4e7',
           },
           
         },
@@ -67,26 +65,26 @@ const config: Config = {
           layout: {},
           colors: {
             'background': {
-              1: '#030712',
-              2: '#111827',
+              1: '#09090b',
+              2: '#18181b',
             },
             'primary': {
-              1: '#a21caf',
-              2: '#7e22ce',
-              DEFAULT: "#a21caf",
+              1: '#e11d48',
+              2: '#f43f5e',
+              DEFAULT: "#e11d48",
             },
             'secondary': {
               1: '#701a75',
               2: '#581c87',
             },
-            'heading-text': '#d1d5db',
-            'p-text': '#9ca3af',
-            'muted-text': '#4b5563',
+            'heading-text': '#fff1f2',
+            'p-text': '#a3a3a3',
+            'muted-text': '#52525b',
             'link-text': '#d4d4d4',
 
-            'card': '#111827',
-            'border-color': '#1f2937',
-            'ring-color': '#1f2937',
+            'card': '#18181b',
+            'border-color': '#27272a',
+            'ring-color': '#27272a',
           },
         },
         // ... // custom themes

@@ -30,7 +30,7 @@ export default function StyleGuide() {
               <CardStyles />
               <h2 className="text-heading-text text-4xl mt-10">Chip</h2>
               <ChipStyle />
-              <h2 className="text-heading-text text-4xl mt-10">Forms & Inputs</h2>
+              <h2 className="text-heading-text text-4xl mt-10">Inputs</h2>
               <InputStyles />
             </div>
             <div>
