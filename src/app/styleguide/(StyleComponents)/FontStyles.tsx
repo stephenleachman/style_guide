@@ -1,6 +1,4 @@
 import { LinkThemed } from "@/components/ComponentThemes";
-import { Link } from "@nextui-org/react";
-
 
 export default function FontStyles() {
   return (
