@@ -66,9 +66,31 @@ p {
   padding: 0 1rem 0 1rem;
 }
 
+/* Input Standard */
+.input.standard [data-slot="input-wrapper"] {
+  @apply text-heading-text font-semibold bg-card tracking-wide rounded-lg transition ease-in-out hover:bg-white/10
+}
+.input.standard [data-slot="input-wrapper"][data-focus="true"]  {
+  @apply text-heading-text font-semibold bg-white/10 tracking-wide rounded-lg transition ease-in-out
+}
 
+/* Input Underlined */
+.input.underlined [data-slot="input-wrapper"] {
+  @apply text-heading-text font-semibold tracking-wide border-b-border-color
+}
 
+/* Input Bordered */
+.input.bordered [data-slot="input-wrapper"] {
+  @apply text-heading-text font-semibold tracking-wide border-border-color rounded-lg
+}
+.input.bordered [data-slot="input-wrapper"][data-focus="true"] {
+  @apply border-primary-1
+}
 
+/* Input Faded */
+.input.faded [data-slot="input-wrapper"] {
+  @apply text-heading-text font-semibold bg-card tracking-wide border-border-color hover:border-primary-1 rounded-lg transition ease-in-out
+}
 
 
 

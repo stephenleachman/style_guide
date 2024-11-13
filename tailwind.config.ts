@@ -73,7 +73,6 @@ const config: Config = {
             'primary': {
               1: '#a21caf',
               2: '#7e22ce',
-              // foreground: "#a21caf",
               DEFAULT: "#a21caf",
             },
             'secondary': {

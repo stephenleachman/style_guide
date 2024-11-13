@@ -4,6 +4,7 @@ import CardStyles from "./(StyleComponents)/CardStyles"
 import ChipStyle from "./(StyleComponents)/ChipStyle"
 import Colors from "./(StyleComponents)/Colors"
 import FontStyles from "./(StyleComponents)/FontStyles"
+import InputStyles from "./(StyleComponents)/InputStyles"
 import LinkStyles from "./(StyleComponents)/LinkStyles"
 
 
@@ -29,6 +30,8 @@ export default function StyleGuide() {
               <CardStyles />
               <h2 className="text-heading-text text-4xl mt-10">Chip</h2>
               <ChipStyle />
+              <h2 className="text-heading-text text-4xl mt-10">Forms & Inputs</h2>
+              <InputStyles />
             </div>
             <div>
               <h2 className="text-heading-text text-4xl">Colors</h2>
