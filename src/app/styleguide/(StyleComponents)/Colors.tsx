@@ -13,7 +13,6 @@ export default function Colors() {
             <li key={color.id} className="card ring-1 ring-ring-color rounded-lg overflow-hidden">
               <div style={{ backgroundColor: color.color }} className="h-[80px] w-full ring-1 ring-ring-color"></div>
               <div className="p-2">
-                <p className="text-muted-text text-left text-sm">{color.theme}</p>
                 <p className="text-heading-text text-left text-sm mt-1">{color.style}</p>
                 <p className="text-heading-text text-left text-sm mt-1 font-medium tracking-wide">{color.color}</p>
               </div>
@@ -27,7 +26,6 @@ export default function Colors() {
             <li key={color.id} className="card ring-1 ring-ring-color rounded-lg overflow-hidden">
               <div style={{ backgroundColor: color.color }} className="h-[80px] w-full ring-1 ring-ring-color"></div>
               <div className="p-2">
-                <p className="text-muted-text text-left text-sm">{color.theme} </p>
                 <p className="text-heading-text text-left text-sm mt-1">{color.style}</p>
                 <p className="text-heading-text text-left text-sm mt-1 font-medium tracking-wide">{color.color}</p>
               </div>
