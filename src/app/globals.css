@@ -1,0 +1,116 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Theme Background Colors */
+  --nextui-background-1-color: theme('colors.background-1');
+  --nextui-background-2-color: theme('colors.background-2');
+  
+  /* Theme Text Colors */
+  --nextui-p-text-color: theme('colors.p-text');
+  --nextui-heading-text-color: theme('colors.heading-text');
+  --nextui-muted-text-color: theme('colors.muted-text'); 
+  --nextui-link-text-color: theme('colors.link-text');
+
+  /* Theme Primary Colors */
+  --nextui-primary-1-color: theme('colors.primary-1');
+  --nextui-primary-2-color: theme('colors.primary-2');
+
+  /* Theme Secondary Colors */
+  --nextui-secondary-1-color: theme('colors.secondary-1');
+  --nextui-secondary-2-color: theme('colors.secondary-2');
+
+  /* Other Theme Colors */
+  --nextui-card-color: theme('colors.card');
+  --nextui-border-color-css: theme('colors.border-color');
+  --nextui-ring-color-css: theme('colors.ring-color'); 
+}
+
+/* Heading 1 */
+h1 {
+  @apply text-5xl md:text-6xl font-semibold text-heading-text pb-5 tracking-wide;
+}
+/* Heading 2 */
+h2 {
+  @apply text-4xl md:text-5xl font-semibold text-heading-text pb-5 tracking-wide;
+}
+/* Heading 3 */
+h3 {
+  @apply text-3xl md:text-4xl font-semibold text-heading-text pb-5 tracking-wide;
+}
+/* Heading 4 */
+h4 {
+  @apply text-2xl md:text-3xl font-semibold text-heading-text pb-5 tracking-wide;
+}
+/* Leading Paragraph */
+p, .leading {
+  @apply text-lg text-p-text leading-relaxed tracking-wide font-medium;
+}
+/* Paragraph */
+p {
+  color: var(--nextui-p-text-color);
+  @apply text-base
+}
+/* Devider */
+.h-divider {
+  height: 1px;
+  background-color: var(--nextui-border-color-css);
+}
+/* Card Theme */
+.card {
+  background-color: var(--nextui-card-color);
+  @apply rounded-lg ring-ring-color ring-1
+}
+.container {
+  padding: 0 1rem 0 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Theme Container Responsive Style */
+/* Mabile - sm */
+@media (min-width: 640px) { 
+  .container {
+    max-width: 900px;
+    padding: 0 1rem 0 1rem;
+  }
+ }
+ /* Tablet - md */
+@media (min-width: 768px) { 
+  .container {
+    max-width: 900px;
+    padding: 0 1rem 0 1rem;
+  }
+ }
+ /* Laptop - lg */
+ @media (min-width: 1024px) { 
+  .container {
+    max-width: 1100px;
+    padding: 0 1rem 0 1rem;
+  }
+}
+/* Desktop - xl */
+@media (min-width: 1280px) {   
+  .container {
+  max-width: 1500px;
+  padding: 0 1rem 0 1rem;
+  }
+}
+/* Desktop Large - 2xl */
+@media (min-width: 1536px) {   
+
+}
